@@ -18,10 +18,10 @@
 }
 @font-face {
 	font-family: yarlogo;
-	src: url('fonts/yarlogo/yarlogo.eot');
-	src: url('fonts/yarlogo/yarlogo.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/yarlogo/yarlogo.woff') format('woff'),
-		 url('fonts/yarlogo/yarlogo.ttf') format('truetype');
+	src: url('../fonts/yarlogo/yarlogo.eot');
+	src: url('../fonts/yarlogo/yarlogo.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/yarlogo/yarlogo.woff') format('woff'),
+		 url('../fonts/yarlogo/yarlogo.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }

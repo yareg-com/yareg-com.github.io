@@ -101,3 +101,123 @@ li {
 b {
 	color: #444;
 }
+
+/* HEADER */
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background: #eee;
+	box-shadow: 0 0 3px rgba(0,0,0,0.3);
+	z-index: 10;
+}
+header .root {
+	display: block;
+	position: absolute;
+	width: 180px;
+	font-family: kelson;
+	font-size: 14px;
+	padding: 16px 0;
+	height: 50px;
+	text-align: center;
+	color: #aaa;
+	background: rgba(255,255,255,0.3);
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s ease color;
+}
+header .root:hover {
+	color: #000;
+	transition: 0.5s ease color;
+}
+header div.profile {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 300px;
+	height: 50px;
+}
+header div.profile img {
+	position: absolute;
+	top: 0;
+	width: 50px;
+	height: 50px;
+	background: #efefef;
+	border: 0;
+}
+header a.name {
+	position: absolute;
+	top: 16px;
+	left: 65px;
+	font-size: 14px;
+	color: #aaa;
+	font-family: kelson;
+	text-transform: uppercase;
+}
+header a.name:hover {
+	color: #000;
+}
+header a.manage, a.login, a.logout {
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 50px;
+	text-align: center;
+	color: #aaa;
+	top: 0;
+	right: 10px;
+	padding: 15px 0 0 0;
+	z-index: 3;
+}
+header a.manage {
+	right: 40px;
+}
+header a.logout {
+	color: #3bb9ff;
+}
+header a.login:hover {
+	color: #3bb9ff;
+}
+header a.logout:hover {
+	color: #000;
+}
+header a.manage:hover {
+	color: #000;
+}
+header a.login:before {
+	font-family: iconic;
+	font-size: 20px;
+	content: "\e800";
+}
+header a.logout:before {
+	font-family: iconic;
+	font-size: 20px;
+	content: "\e800";
+}
+header nav {
+	position: absolute;
+	top: 0;
+	left: 12%;
+	right: 25%;
+	bottom: 0;
+}
+header menu {
+	margin: 0 0 0 6%;
+}
+header nav menu li {
+	float: left;
+}
+header nav menu li a {
+	display: block;
+	height: 50px;
+	font-family: kelson;
+	font-size: 14px;
+	padding: 16px 15px 0 15px;
+	text-transform: uppercase;
+	color: #999;
+}
+header nav menu li a:hover {
+	background: rgba(255,255,255,0.3);
+	color: #000;
+}
