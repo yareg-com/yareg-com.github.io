@@ -1,0 +1,27 @@
+@font-face {
+	font-family: arimo;
+	src: url('../../fonts/arimo/arimo-regular.eot');
+	src: url('../../fonts/arimo/arimo-regular.eot?#iefix') format('embedded-opentype'),
+		 url('../../fonts/arimo/arimo-regular.woff') format('woff'),
+		 url('../../fonts/arimo/arimo-regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: kelson;
+	src: url('../../fonts/kelson/kelson-bold.eot');
+	src: url('../../fonts/kelson/kelson-bold.eot?#iefix') format('embedded-opentype'),
+		 url('../../fonts/kelson/kelson-bold.woff') format('woff'),
+		 url('../../fonts/kelson/kelson-bold.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: yarlogo;
+	src: url('fonts/yarlogo/yarlogo.eot');
+	src: url('fonts/yarlogo/yarlogo.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/yarlogo/yarlogo.woff') format('woff'),
+		 url('fonts/yarlogo/yarlogo.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
