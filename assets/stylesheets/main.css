@@ -221,6 +221,9 @@ header nav menu li a:hover {
 	background: rgba(255,255,255,0.3);
 	color: #000;
 }
+
+/* ARTICLE */
+
 article {
 	padding: 1em;
 }
